@@ -13,4 +13,7 @@ This project was bootstrapped with create-react-app ...
 - Styled Components
 - State Management
 
+```
+$ git clone https://github.com/cbroberg/react-playground.git
 
+```
