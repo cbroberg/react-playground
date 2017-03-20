@@ -16,6 +16,7 @@ This project was bootstrapped with create-react-app ...
 ### Get stuff
 ```
 git clone https://github.com/cbroberg/react-playground.git
+...
 cd react-playground
 ```
 
