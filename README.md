@@ -16,6 +16,7 @@ This project was bootstrapped with create-react-app ...
 ### Get stuff
 ```
 git clone https://github.com/cbroberg/react-playground.git
+cd react-playground
 ```
 
 ### npm install stuff
@@ -32,7 +33,7 @@ or
 sudo yarn install 
 ```
 
-### run stuff
+### Run stuff
 ```
 npm start
 or
