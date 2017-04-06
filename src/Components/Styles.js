@@ -49,4 +49,8 @@ export const Button = styled.button`
   border: 2px solid #2280c3;
   border-radius: 4px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+  position: relative;
+  left: 20px;
+  top: 10px;
+
 `
