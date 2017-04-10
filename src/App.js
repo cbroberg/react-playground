@@ -98,11 +98,11 @@ componentDidMount() {
 
   render() {
     return (
-      <div className="App">   
-        <APIConnector />
+      <div className="App">     
         <WarningTitle>
           <Page />
         </WarningTitle>
+        <br /><APIConnector /><br />
         <BestLibs />
         <ListsAndKeys />
         The time is: <Clock />
