@@ -4,8 +4,9 @@
   "private": true,
   "dependencies": {
     "jquery": "^3.1.1",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "odeum-connect": "0.0.7",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3",
     "styled-components": "^1.4.4",
     "uuid": "^3.0.1"
   },

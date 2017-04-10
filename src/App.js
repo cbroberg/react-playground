@@ -13,6 +13,8 @@ import ListsAndKeys from './Components/ListsAndKeys'
 import NameForm from './Components/NameForm'
 import BestLibs from './Components/BestLibs'
 import Geolocation from './Components/Geolocation'
+import Spinner from './Components/Spinner'
+import APIConnector from 'odeum-connect'
 
 import './App.css'
 // Trying out styled-components instead of global CSS rules or inline component styles
@@ -96,7 +98,8 @@ componentDidMount() {
 
   render() {
     return (
-      <div className="App">
+      <div className="App">   
+        <APIConnector />
         <WarningTitle>
           <Page />
         </WarningTitle>
@@ -111,6 +114,7 @@ componentDidMount() {
         <Toggle />
         <LoginControl />
         <Lifecycle />
+        <Spinner />
         <AddProject addProject={this.handleAddProject.bind(this)} />
         <Projects projects={this.state.projects} onDelete={this.handleDeleteProject.bind(this)}/>
         <hr />
