@@ -13,7 +13,7 @@ import ListsAndKeys from './Components/ListsAndKeys'
 import NameForm from './Components/NameForm'
 import BestLibs from './Components/BestLibs'
 import Geolocation from './Components/Geolocation'
-import Spinner from './Components/Spinner'
+import Rotate from './Components/Spinner'
 import APIConnector from 'odeum-connect'
 
 import './App.css'
@@ -99,8 +99,9 @@ componentDidMount() {
   render() {
     return (
       <div className="App">     
-        <WarningTitle>
+        <WarningTitle>          
           <Page />
+          <Rotate>&lt; 💅🙏🏻  &gt;</Rotate>
         </WarningTitle>
         <br /><APIConnector /><br />
         <BestLibs />
@@ -114,7 +115,6 @@ componentDidMount() {
         <Toggle />
         <LoginControl />
         <Lifecycle />
-        <Spinner />
         <AddProject addProject={this.handleAddProject.bind(this)} />
         <Projects projects={this.state.projects} onDelete={this.handleDeleteProject.bind(this)}/>
         <hr />
