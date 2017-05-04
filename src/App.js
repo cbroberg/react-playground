@@ -15,6 +15,7 @@ import BestLibs from './Components/BestLibs'
 import Geolocation from './Components/Geolocation'
 import Rotate from './Components/Spinner'
 import APIConnector from 'odeum-connect'
+import { HelloWorld1, HelloWorld2 } from './Components/Stateless'
 
 import './App.css'
 // Trying out styled-components instead of global CSS rules or inline component styles
@@ -105,6 +106,8 @@ componentDidMount() {
         </WarningTitle>
         <br /><APIConnector /><br />
         <BestLibs />
+        <HelloWorld1 name='Christian' />
+        <HelloWorld2 name='Mette' />
         <ListsAndKeys />
         The time is: <Clock />
         Your location is: <Geolocation />
